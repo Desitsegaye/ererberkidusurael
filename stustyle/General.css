@@ -1,0 +1,161 @@
+
+body{
+ 
+   
+   
+  height: 1000px;
+  margin: 0;
+   
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 135px;
+  padding-left: 200px;
+ 
+  /*background-image: url('../Image/StuBul_front.jpg');*/
+  background-image: url('../Image/sturalbul_main.jpg');
+  
+  opacity: 50px;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+ 
+}
+ 
+p{
+  font-size: 16px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+
+.tele{
+  flood-color: black;
+}
+
+ table {
+      border-collapse: collapse;
+      width: 100%;
+      padding-top: 100px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #464444;
+    }
+
+    th:first-child,
+    td:first-child {
+      width: 70px; /* Adjust the width value as per your requirement */
+    }
+    caption {
+      margin-top: 50px;
+      caption-side: top;
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 28px; /* Adjust the font size value as per your requirement */
+    }
+    .summary-row {
+      font-weight: bold;
+    }
+    .summary-row td:nth-child(1),
+    .summary-row td:nth-child(2),
+    .summary-row td:nth-child(3) {
+      border-right: none;
+      border-style: none;
+    }
+    .summary-row td:nth-child(3) {
+      text-align: end;
+    }
+   /* blockquote {
+      border-left: 4px solid #ccc;
+      padding-left: 5px;
+      margin: 5px 0;
+      font-style: italic;
+    }
+    
+    blockquote p {
+      margin-bottom: 5px;
+    }
+*/
+
+    blockquote {
+      font-style: italic;
+      border-left: 2px solid #ccc;
+      padding-left: 10px;
+      margin: 10px 0;
+     
+    }
+    
+    .qut {
+      margin-top: 5px;
+      font-weight: bold;
+      color: white;
+    }
+q:before {
+      content: open-quote;
+    }
+  
+    q:after {
+      content: close-quote;
+    }
+
+
+    q {
+      display: inline;
+      font-style: italic;
+      quotes: "“" "”";
+    }
+  
+    q:before {
+      content: open-quote;
+    }
+  
+    q:after {
+      content: close-quote;
+    }
+  
+    cite {
+      display: block;
+      text-align: right;
+      color: #999;
+      font-style: normal;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  
+    q {
+      display: inline;
+      font-style: italic;
+      quotes: "“" "”";
+      animation: fadeIn 1s ease-in-out;
+    }
+  
+    q:before {
+      content: open-quote;
+    }
+  
+    q:after {
+      content: close-quote;
+    }
+  
+    cite {
+      display: block;
+      text-align: right;
+      color: #999;
+      font-style: normal;
+    }
+
+
+    

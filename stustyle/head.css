@@ -1,0 +1,355 @@
+
+
+
+
+.stuheader{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   background-color:transparent;
+ /* background-color: rgb(61, 200, 2);*/
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+
+  height: 130px;
+ left: 0px;
+ border-bottom-width: 1px;
+ border-bottom-color: gray;
+ border-bottom-style: solid;
+ z-index: 350;
+ /*background-image: url('../Image/Stuheder.jpg');*/
+ background-image: url('../Image/sturalbulmimen_n.jpg');
+ background-image: url('../Image/sturalbul_main.jpg');
+ 
+  opacity: 0.9;
+}
+ 
+
+.stuLeft,
+.sturight
+{
+  width: 200px; 
+   
+ margin-right: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.stuLeft img,
+.sturight img{
+  width: 130px;
+  height: 120px;
+  border-radius: 50%;
+   background-color: transparent;
+   box-shadow:0 2px 4px rgba(0, 0, 0, 2);
+   box-shadow:0 2px 4px rgba(0, 0, 0, 2);
+   
+}
+.stumid{
+ flex: 1;
+ display: flex;
+ justify-content: start;
+ align-items: center;
+ margin-right: 5px;
+ font-size: 60px;
+ 
+ 
+ font-weight: bold;
+
+ color: #783a00; /* Black text color */
+ 
+ text-shadow: 4px 4px 6px rgba(30, 31, 30, 0.9); /* Shadow effect */
+
+ color: #000; /* Black text color */
+ color: #000080;
+ text-shadow: 4px 4px 6px rgba(238, 239, 233, 0.9); /* Shadow effect */
+
+}
+
+.stumaincontent{
+  
+   height: 1800px;
+   width: 1000px;
+ /* background-color: rgb(236, 234, 234);*/
+  color: white;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  
+}
+
+.stufooter
+{
+  position:fixed;
+  bottom: 0px;
+  
+  background-color: black;
+  color: white;
+  left: 0px;
+  right: 0px;
+   
+  height: 100px;
+}
+.stcontent
+{
+  display: flex;
+   column-gap: 20px;
+ 
+}
+.stuSidContente{
+  height: 900px;
+   margin-top: 50px;
+  flex: 1;
+  background-color: rgba(122, 112, 4, 0.479);
+
+  background-color:rgb(200, 161, 101);
+  background-color: #629307;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+
+  
+}
+.stuTop_content{
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+ .stuTop_content_Account{
+   
+ z-index: 150;
+ cursor: pointer;
+ position: relative;
+  margin-right: 15px;
+ 
+
+} 
+.stuTop_content_Account img:hover{
+  opacity: 1;
+  background: white;
+  width: 200px;
+  height: 110px;
+  font-size: 35px;
+  
+  
+}
+.stuTop_content_Account_No{
+  position: absolute;
+  bottom: -7px;
+  left: 15px;
+  right: 0;
+  background-color: rgb(200, 161, 101);
+  color: wheat;
+  margin: 0;
+   
+  
+}
+.stuTop_content_Account img{
+  width:160px;
+  height: 55px;
+  border-radius: 4px;
+  background: white;
+  object-fit: contain;
+
+  transition-property: width,height,transform,background,font-size,opacity;
+  transition-duration: 1s,1s,1s,1s,1s,1s;
+  border-radius: 5px;
+ 
+}
+
+
+
+
+
+*{box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+.mySlides fade img{
+  object-fit: cover;
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container
+ {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.page_footer {
+  background-color:transparent;
+  color: #fff;
+   width: 100%;
+  text-align: center;
+  height: 750px;
+  display: inline-block
+  
+}
+
+.telephone-box {
+  border: 1px solid #000;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.telephone-box .title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.telephone-box .content {
+  font-size: 16px;
+  color: #333;
+}
+
+.telephone-box .buttons {
+  margin-top: 20px;
+}
+
+.telephone-box .buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.telephone-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.telephone-box h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.telephone-box p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.telephone-box .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.telephone-box button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.share-button
+ {
+  display: inline-block;
+  background-color: #4267B2;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 27px;
+  border-radius: 5px;
+}
+
+.share-button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.share-button-tweet {
+  display: inline-block;
+  background-color: #1DA1F2;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.share-button-tweet a {
+  color: #fff;
+  text-decoration: none;
+}

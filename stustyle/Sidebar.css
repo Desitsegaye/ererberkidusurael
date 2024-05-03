@@ -1,0 +1,35 @@
+.stuSidebar
+{ 
+  /*background-color: rgb(200, 161, 101);
+  background-color: #e4a024;*/
+ 
+
+  position: fixed;
+  left: 0px;
+  bottom: 550px;
+  top: 180px;
+  
+  width: 105px;
+  z-index: 200px;
+  padding-top: 10px;
+ 
+   
+}
+.stusidebar-Link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  flex-direction: column;
+  cursor: pointer;
+  padding-top: 20px;
+   
+}
+.stusidebar-Link:hover{
+  background-color: lightgray;
+}
+.stusidebar-Link img{
+  height: 26px;
+  margin-bottom: 4px;
+}
+
